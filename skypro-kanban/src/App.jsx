@@ -1,3 +1,5 @@
+import "./App.css";
+
 export default function App() {
   return (
     <div className="wrapper">
@@ -407,12 +409,12 @@ export default function App() {
           <div className="header__block">
             <div className="header__logo _show _light">
               <a href="" target="_self">
-                <img src="/images/logo.png" alt="logo" />
+                <img src="/public/logo.png" alt="logo" />
               </a>
             </div>
             <div className="header__logo _dark">
               <a href="" target="_self">
-                <img src="/images/logo_dark.png" alt="logo" />
+                <img src="/public/logo_dark.png" alt="logo" />
               </a>
             </div>
             <nav className="header__nav">
